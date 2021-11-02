@@ -3,16 +3,12 @@ import { Bar } from 'react-chartjs-2';
 
 const options = {
   scales: {
-    yAxes: [
-      {
-        ticks: {
-          beginAtZero: true,
-        },
-      },
-    ],
-  },
+    y: {
+      beginAtZero: true
+    }
+  }
 };
 
-const BarChart = ({ data }) => <Bar data={data} options={options} />;
+const BarChart = ({ data }:{ data: any }) => <Bar data={data} options={options} />;
 
 export default BarChart;

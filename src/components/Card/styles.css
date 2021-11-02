@@ -66,3 +66,11 @@
 button {
     margin: 30px 20px;
 }
+
+@media (orientation: portrait) {
+    .container {
+        width: 70vw !important;
+        height: 550px;
+        margin-bottom: 50px;
+    }
+}

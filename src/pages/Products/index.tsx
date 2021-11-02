@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Card from '../../components/Card'
+import './styles.css';
 
 
 const Products = () => {
@@ -48,11 +49,11 @@ const Products = () => {
 
     return (
         <div style={{ fontFamily: 'Zen Antique, serif', fontSize: 28, paddingBottom: '50vh' }}>
-            <span style={{ width: '40vw', display: 'block', lineHeight: 2, margin: '100px auto 10px auto', fontSize: 32 }}>Made with quality and care.<br /> From the shirt wearer, for the shirt wearer.<br /> We keep comfort and class in mind.</span>
-            <span style={{ fontFamily: 'FabulousScript', display: 'block', margin: 'auto', width: '10vw', marginBottom: 100 }}>- Shirt Wearer</span>
+            <span className="slogan" style={{ width: '40vw', display: 'block', lineHeight: 2, margin: '100px auto 10px auto', fontSize: 32 }}>Made with quality and care.<br /> From the shirt wearer, for the shirt wearer.<br /> We keep comfort and class in mind.</span>
+            <span className="slogan" style={{ fontFamily: 'FabulousScript', display: 'block', margin: 'auto', width: '10vw', marginBottom: 100 }}>- Shirt Wearer</span>
             {loading ? <span>loading...</span> : null}
             {error ? <span>{error}</span> : null}
-            <div style={{ display: 'flex', justifyContent: 'space-around' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap' }}>
                 {products.map(({ id, name, description, price, stock, image_url: imgUrl }) => (
                     <Card 
                         key={id}

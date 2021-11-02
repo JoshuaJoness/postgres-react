@@ -32,3 +32,12 @@ th {
 td {
     color: #333;
 }
+
+@media (orientation: portrait) {
+    .orders-container {
+        width: 80vw;
+        max-width: 80vw;
+        margin: auto;
+        overflow: auto;
+    }
+}

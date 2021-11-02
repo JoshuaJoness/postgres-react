@@ -42,3 +42,10 @@ a {
 .contents {
     width: 30vw;
 }
+
+@media (orientation: portrait) {
+    .contents {
+        width: 100vw;
+        display: flex;
+    }
+}

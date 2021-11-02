@@ -1,0 +1,7 @@
+@media (orientation: portrait) {
+    .slogan {
+        font-size: 22px !important;
+        width: 90vw !important;
+        margin: 50px auto !important;
+    }
+}
