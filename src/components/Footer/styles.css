@@ -1,0 +1,9 @@
+li, a {
+    color: #EFCB68;
+    font-size: 22px;
+    margin-right: 40px;
+}
+
+.site:hover {
+    transform: scale(1.5);
+}

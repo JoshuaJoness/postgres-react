@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "FabulousScript";
+    src: url("../../fonts/FabulousScript/FabulousScript.ttf");
+}
+
+body {
+    background-color: #635D5C;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    width: 100vw;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    align-self: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-family: FabulousScript;
+    font-size: 42px;
+    color: #EFCB68;
+}
+
+.title:hover {
+    color: #EEE;
+}
+
+.contents {
+    width: 30vw;
+}

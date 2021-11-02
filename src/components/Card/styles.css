@@ -1,0 +1,68 @@
+.container {
+    width: 375px;
+    height: 710px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 20px;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+.container:hover {
+    cursor: pointer;
+    /* opacity: 0.8; */
+}
+
+.image {
+    width: 100%;
+}
+
+
+.name {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 32px;
+    color: #333;
+    display: block;
+    margin: 0 20px 0 20px;
+}
+
+.price {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 24px;
+    color: #A8A8A8;
+    display: block;
+    margin: 0 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.stock {
+    margin: 20px 20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+    color: #EFCB68;
+}
+
+.quantity {
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+    color: #EFCB68;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 100px;
+    margin-left: 20px
+}
+
+button {
+    margin: 30px 20px;
+}
